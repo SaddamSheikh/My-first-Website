@@ -1,0 +1,162 @@
+#container {
+  width: 1300px;
+  /* border: 1px solid grey; */
+  margin: 20px auto;
+}
+#header {
+  height: 100px;
+}
+h1 a {
+  font-size: 50px;
+  font-weight: 100;
+  color: purple;
+  text-decoration: none;
+}
+#searchbox {
+  border-radius: 10px;
+  background: linear-gradient(rgb(165, 236, 183), green);
+  height: 50px;
+  width: 400px;
+  float: right;
+  padding: 20px 40px 0px 40px;
+  margin-top: 18px;
+  margin-right: 18px;
+}
+
+#brand {
+  float: left;
+}
+.submit {
+  float: right;
+  background: purple;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 20px;
+}
+.search {
+  border-radius: 20px;
+  float: left;
+  width: 250px;
+  font-size: 15px;
+  color: orange;
+  padding: 5px;
+}
+.clear {
+  clear: both;
+}
+.menu {
+  border-radius: 10px;
+  height: 20px;
+  background: linear-gradient(rgb(206, 221, 0), yellow);
+  width: auto;
+  height: 100px;
+  padding: 50px 0px 0px 0px;
+}
+ul {
+  list-style: none;
+}
+.menu ul li {
+  float: left;
+  padding: 0px 20px;
+  border-right: 1px solid blue;
+  height: 30px;
+  line-height: 30px;
+}
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(25, 0, 255);
+  transition: font-size 0.3s ease;
+}
+.menu ul li a:hover,
+.menu ul li a.active {
+  font-size: 25px;
+  color: purple;
+  font-weight: bold;
+}
+.menu ul li:last-child {
+  border-right: none;
+}
+#intro {
+  border-radius: 10px;
+  background: linear-gradient(#ddf3c9, #b2fa6e);
+  padding: 20px 80px;
+  margin: 20px 0px;
+}
+#intro h1 {
+  color: rgb(1, 114, 1);
+  font-size: 50px;
+  font-weight: normal;
+}
+#intro p {
+  color: rgb(0, 172, 0);
+  font-size: 25px;
+  text-align: justify;
+}
+.sidebar {
+  border: 2px solid rgb(28, 183, 235);
+  border-radius: 20px;
+  width: 600px;
+  height: 600px;
+}
+.sidebar h1 {
+  color: rgb(93, 0, 155);
+  padding: 20px 30px;
+}
+.sidebar ul {
+  font-size: 20px;
+}
+.sidebar ul li a:hover {
+  font-size: 25px;
+  color: purple;
+}
+#leftsidebar {
+  float: left;
+}
+#leftsidebar ul {
+  padding-left: 70px;
+}
+#leftsidebar ul li {
+  padding-bottom: 15px;
+  color: rgb(0, 117, 190);
+  padding-left: 10px;
+  list-style: url(/images/arrow.png);
+  padding-right: 10px;
+  transition: font-size 0.3s linear;
+}
+#leftsidebar ul li a {
+  text-decoration: none;
+}
+#rightsidebar {
+  float: right;
+}
+#rightsidebar ul {
+  padding-left: 80px;
+}
+#rightsidebar ul li {
+  padding-bottom: 20px;
+  color: rgb(0, 117, 190);
+  padding-left: 10px;
+  list-style: url(/images/tick.png);
+  padding-right: 10px;
+  font-size: 20px;
+}
+#rightsidebar ul li a {
+  text-decoration: none;
+}
+.footer {
+  margin-top: 15px;
+  width: auto;
+  background: linear-gradient(rgb(255, 255, 49), yellow);
+  height: 80px;
+  border-radius: 10px;
+}
+.footer p {
+  float: right;
+  padding-right: 20px;
+  padding-top: 15px;
+  color: rgb(25, 0, 255);
+}
